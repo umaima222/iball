@@ -635,7 +635,7 @@ section.sample_text_sec {
 	background-position: right center;
 }
 .basket-card-2 {
-	background-image: url("../Images/basket-ball.png");
+	background-image: url("../Images/bannerball.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right center;
@@ -1327,7 +1327,7 @@ div#copyright p {
 	top: 64%;
 	width: 50px;
 	height: 50px;
-	background: url("../Images/banner-ball.png");
+	background: url("../Images/bannerball.png");
 	border-radius: 50px;
 	overflow: hidden;
 	/* border: 2px solid black; */
