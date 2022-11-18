@@ -1,8 +1,15 @@
 import bannerbg2 from "../Assets/Images/bannerbg2.jpg";
 import iballlogo1 from "../Assets/Images/iballlogo1.png";
 import bannerball from "../Assets/Images/bannerball.png";
-export{
-    iballlogo1,
-    bannerball,
-
-}
+import events4 from "../Assets/Images/events4.png";
+import blog2 from "../Assets/Images/blog2.png";
+import blog3 from "../Assets/Images/blog3.png";
+import Enquire from "../Assets/Images/Enquire.svg";
+import shop2 from "../Assets/Images/shop2.jpeg";
+import recent1 from "../Assets/Images/recent1.png";
+import recent6 from "../Assets/Images/recent6.png";
+import recent2 from "../Assets/Images/recent2.png";
+import recent3 from "../Assets/Images/recent3.png";
+import test2 from "../Assets/Images/test2.png";
+import tes1 from "../Assets/Images/tes1.png";
+export { iballlogo1, bannerball, events4, blog2, blog3, Enquire, shop2,recent1,recent6,recent2,recent3,test2,tes1 };

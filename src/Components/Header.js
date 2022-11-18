@@ -3,7 +3,7 @@ import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BiSearch } from "react-icons/bi";
 import { BsHeart,BsCartFill } from "react-icons/bs";
-import "../Assets/Css/style.css";
+import "../Assets/css/style.css";
 import { iballlogo1 } from "../Constant/Img";
 
 

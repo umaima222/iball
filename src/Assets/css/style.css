@@ -11,28 +11,28 @@ html body {
 	overflow-x: hidden;
 }
 a {
-	color: #ff7600;
+	color: #ff7600 !important;
 	font-family: "Poppins";
 	font-size: 12px !important;
 	font-weight: 700 !important;
 	text-decoration: underline;
 }
 .btn {
-	background: #000;
-	font-family: "Poppins";
-	color: #fff;
-	font-size: 14px;
-	font-weight: 600;
-	padding: 12px 40px;
-	border-radius: 0px;
+	background: #000 !important;
+	font-family: "Poppins" !important;
+	color: #fff !important;
+	font-size: 14px !important;
+	font-weight: 600 !important;
+	padding: 12px 40px !important;
+	border-radius: 0px !important;
 	border: 1px solid #fff;
 	transition: all 0.3s ease-in-out;
 	text-decoration: none;
 }
 .btn:hover {
 	outline: 1px solid #ff7600;
-	background-color: #ff7600;
-	color: #fff;
+	background-color: #ff7600 !important;
+	color: #fff !important;
 }
 /* global css ends here */
 /* typography starts here */
@@ -203,9 +203,9 @@ header#header .wishlist-wrapper ul li {
 	margin: 0px 6px;
 	position: relative;
 }
-header#header .wishlist-wrapper ul li a i {
+header#header .wishlist-wrapper ul li a svg {
 	font-size: 18px;
-	color: #000;
+	color: #000 !important;
 }
 header#header .wishlist-wrapper span.count {
 	position: absolute;
@@ -235,7 +235,7 @@ header#header .search_modal .modal-lg {
 }
 .main-header-wrapper .navbar-wrapper a.nav-link {
 	font-family: "Poppins";
-	color: #000;
+	color: #000 !important;
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	text-decoration: none !important;
@@ -337,7 +337,10 @@ header .logo-wrapper {
 	width: 600px;
 	margin-top: 1rem;
 }
-
+.banner .btn{
+	margin: 0 10px  !important;
+	padding: 10px 40px !important;
+}
 .banner p.wrtb_txt {
 	font-size: 20px;
 	display: inline;
@@ -1146,7 +1149,7 @@ section.sample_text_sec {
 .news-letter-icon-wrapper .icon-img-wrapper {
 	margin-right: 20px;
 }
-.news-letter-icon-wrapper .icon-img-wrapper i {
+.news-letter-icon-wrapper .icon-img-wrapper  {
 	background: #ff7600;
 	text-align: center;
 	height: 42px;
@@ -1252,7 +1255,7 @@ section.sample_text_sec {
 	margin-top: 0px;
 }
 .footerlinks-wrapper ul li a {
-	color: #fff;
+	color: #fff !important;
 	font-size: 12px !important;
 	line-height: 2.5;
 	font-weight: 400 !important;
@@ -1277,7 +1280,7 @@ footer.footer p {
 	margin-top: 19px;
 	font-size: 12px;
 }
-.footer-icon-wrapper a {
+.footer-icon-wrapper svg {
 	color: #fff;
 	text-decoration: none;
 	font-size: 20px !important;
@@ -1289,11 +1292,13 @@ div#copyright p {
 
 #copyright {
 	background: #000;
-	color: #fff;
+	color: #fff !important;
 }
-
+.copy-right{
+	text-align: right;
+}
 #copyright a {
-	color: #fff;
+	color: #fff !important;
 	font-size: 14px;
 	font-weight: 400 !important;
 	text-decoration: none;
