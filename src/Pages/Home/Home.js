@@ -17,11 +17,20 @@ import { recent3 } from "../../Constant/Img";
 import { recent2 } from "../../Constant/Img";
 import { test2 } from "../../Constant/Img";
 import { tes1 } from "../../Constant/Img";
-
+import { Player } from "video-react";
+import { BallLogo } from "../../Constant/Video";
 import Modal from "react-modal";
-import MediaComponent from '../../Constant/MediaComponent';
+import {AiOutlineClose } from "react-icons/ai";
+
 const Home = () => {
-	const customStyles = {
+const basket =[{
+img:shop2,
+title: "iBall T-Shirt",
+price:"£19.99",
+btn:
+"Add to Cart",
+}]	
+const customStyles = {
 		content: {
 			top: "50%",
 			left: "50%",
@@ -51,6 +60,7 @@ const Home = () => {
 			setIsOpen(true);
 		}, 500);
 	}, []);
+
 	return (
 		<>
 			<Header />
@@ -62,44 +72,20 @@ const Home = () => {
 					style={customStyles}
 					contentLabel="Example Modal"
 				>
-                      <MediaComponent />
-				</Modal>
-				<div
-					class="modal fade"
-					id="exampleModalCenters"
-					tabindex="-1"
-					role="dialog"
-					aria-labelledby="exampleModalCenterTitle"
-					aria-hidden="true"
-				>
-					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button
-									type="button"
-									class="close"
-									data-dismiss="modal"
-									aria-label="Close"
-								>
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<div class="modal-body">
-								{/* <video
-									width="100%"
-									height="100%"
-									muted
-									autoplay
-									controls
-									id="video"
-								>
-									<source src={BallLogoAnimation} type="video/mp4" />
-									Your browser does not support the video tag.`
-								</video> */}
-							</div>
-						</div>
+					<div className="title " style={{textAlign:"right",marginBottom:"10px"}}>
+						<button onClick={closeModal} style={{border:"0",backgroundColor:"transparent"}}><AiOutlineClose/></button>
 					</div>
-				</div>
+					<video
+						src={BallLogo}
+						width="100%"
+						height="650px"
+						controls
+						autoPlay={"autoplay"}
+						preLoad="auto"
+						loop
+					></video>
+				</Modal>
+
 			</div>
 			<section className="banner">
 				<div className="container">
