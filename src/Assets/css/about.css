@@ -1,0 +1,35 @@
+.about-sec {
+    padding: 60px 0px;
+  }
+  .about-sec h5 {
+    color: #ff7600;
+  }
+  .about-sec h2 {
+    color: #000;
+  }
+  .about-sec p {
+    font-weight: 500;
+    color: #847e76;
+  }
+  .about-sec ul {
+    list-style: none;
+    padding: 0px;
+    font-family: "Poppins";
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 600;
+  }
+  .about-sec ul li img {
+    margin-right: 10px;
+  }
+  
+  .video-wrapper {
+    position: relative;
+  }
+  .about-sec  .video-wrapper img.video-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

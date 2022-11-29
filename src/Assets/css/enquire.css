@@ -1,0 +1,58 @@
+/* contact form icon css starts here */
+.contact-icon {
+    padding: 60px 0px;
+  }
+  .contact-icon-wrapper .icon-content-wrapper {
+    background: #f7f7f7;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    margin-top: -81px;
+  }
+  .contact-icon h5 {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .icon-content-wrapper h6 {
+    font-size: 16px;
+    color: #000000cf;
+  }
+  .icon-content-wrapper h6 span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+  }
+  .form-group {
+    margin-bottom: 1rem;
+}
+  /* contact form icon css ends here */
+  /* contact form css starts here */
+  .contact-form {
+    padding: 60px 0px;
+  }
+  .contact-form input {
+    box-shadow: 0px 0px 5px 2px #f3f3f3;
+  }
+  .contact-form textarea {
+    box-shadow: 0px 0px 5px 2px #f3f3f3;
+  }
+  .contact-form-content-wrapper h5 {
+    color: #ff7600;
+  }
+  .contact-form-content-wrapper h2 {
+    color: #000;
+  }
+  .contact-form-wrapper .form-control {
+    border: 1px solid #e1e1e1;
+    border-radius: 0px !important;
+    padding: 13px;
+    font-size: 14px;
+    color: #888888;
+    font-family: "Poppins";
+  }
+  .contact-form-wrapper .btn {
+    padding: 13px 70px;
+  }
+  
+  /* contact form css ends here */
+  

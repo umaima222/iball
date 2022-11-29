@@ -17,7 +17,6 @@ import { recent3 } from "../../Constant/Img";
 import { recent2 } from "../../Constant/Img";
 import { test2 } from "../../Constant/Img";
 import { tes1 } from "../../Constant/Img";
-import { Player } from "video-react";
 import { BallLogo } from "../../Constant/Video";
 import Modal from "react-modal";
 import {AiOutlineClose } from "react-icons/ai";
@@ -246,7 +245,7 @@ const customStyles = {
 										iBall Launches the Croydon <br /> League launching Autumn
 										2023, watch this space for more details
 									</p>
-									<a href="events.php" className="btn">
+									<a href="/Event" className="btn">
 										Read More
 									</a>
 								</div>
@@ -273,7 +272,7 @@ const customStyles = {
 										We will shortly be updating <br /> you with the details of
 										our <br /> next Skills Camp
 									</p>
-									<a href="events.php" className="btn">
+									<a href="/Event" className="btn">
 										Read More
 									</a>
 								</div>
@@ -300,7 +299,7 @@ const customStyles = {
 										We will shortly be updating <br /> you with the details of
 										the <br /> Croydon School League
 									</p>
-									<a href="events.php" className="btn">
+									<a href="/Event" className="btn">
 										Read More
 									</a>
 								</div>
@@ -320,7 +319,7 @@ const customStyles = {
 									click away
 								</h2>
 
-								<a href="enquiry.php" className="btn">
+								<a href="/Enquire" className="btn">
 									Enquire here
 								</a>
 							</div>

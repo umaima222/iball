@@ -2,10 +2,10 @@ import React from "react";
 import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BiSearch } from "react-icons/bi";
-import { BsHeart,BsCartFill } from "react-icons/bs";
+import { BsHeart, BsCartFill } from "react-icons/bs";
 import "../Assets/css/style.css";
 import { iballlogo1 } from "../Constant/Img";
-
+import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
@@ -41,7 +41,7 @@ const Header = () => {
 							<div className="col-lg-3">
 								<div className="logo-wrapper">
 									<a href="index.php">
-										<img src={iballlogo1} className="img-fluid i-logo-header"  />
+										<img src={iballlogo1} className="img-fluid i-logo-header" />
 									</a>
 								</div>
 							</div>
@@ -49,29 +49,30 @@ const Header = () => {
 								<div className="navbar-wrapper">
 									<ul className="navbar-nav">
 										<li className="nav-item">
-											<a href="index.php" className="nav-link">
-												Home
-											</a>
+											<Link to="/Home" className="nav-link">
+												Home{" "}
+											</Link>
 										</li>
 										<li className="nav-item">
-											<a href="shop.php" className="nav-link">
+											<Link to="/Shop" className="nav-link">
 												Shop
-											</a>
+											</Link>
+					
 										</li>
 										<li className="nav-item">
-											<a href="events.php" className="nav-link">
+											<Link to="/event" className="nav-link">
 												Events
-											</a>
+											</Link>
 										</li>
 										<li className="nav-item">
-											<a href="contact-us.php" className="nav-link">
+											<a href="/Contactus" className="nav-link">
 												Contact us
 											</a>
 										</li>
 										<li className="nav-item">
-											<a href="enquiry.php" className="nav-link">
-												Enquire Now
-											</a>
+											<Link to="/Enquire" className="nav-link">
+												Enquire Now{" "}
+											</Link>
 										</li>
 									</ul>
 								</div>
@@ -86,18 +87,18 @@ const Header = () => {
 													data-toggle="modal"
 													data-target=".search_modal"
 												>
-													<BiSearch/>
+													<BiSearch />
 												</a>
 											</li>
 											<li>
 												<a href="#">
-													<BsHeart/>
+													<BsHeart />
 													<span className="count">1</span>
 												</a>
 											</li>
 											<li>
 												<a href="Add-to-Cart.php">
-													<BsCartFill/>
+													<BsCartFill />
 													<span className="count">1</span>
 												</a>
 											</li>
@@ -113,29 +114,45 @@ const Header = () => {
 						</div>
 					</div>
 				</div>
-                <div className="modal fade bd-example-modal-lg search_modal" tabindex="-1" role="dialog"
-        aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div className="modal-dialog modal-lg">
-            <div className="modal-content">
-                <div className="modal-header">
-                    <h5 className="modal-title" id="exampleModalLabel"></h5>
-                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div className="modal-body">
-                    <div className="input-group">
-                    <input className="form-control" type="search" id="gsearch" name="gsearch" placeholder="Search..."/>
-                        <div className="input-group-append">
-                            <button className="btn btn-secondary" type="button">
-                                <i className="fa fa-search"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+				<div
+					className="modal fade bd-example-modal-lg search_modal"
+					tabindex="-1"
+					role="dialog"
+					aria-labelledby="myLargeModalLabel"
+					aria-hidden="true"
+				>
+					<div className="modal-dialog modal-lg">
+						<div className="modal-content">
+							<div className="modal-header">
+								<h5 className="modal-title" id="exampleModalLabel"></h5>
+								<button
+									type="button"
+									className="close"
+									data-dismiss="modal"
+									aria-label="Close"
+								>
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div className="modal-body">
+								<div className="input-group">
+									<input
+										className="form-control"
+										type="search"
+										id="gsearch"
+										name="gsearch"
+										placeholder="Search..."
+									/>
+									<div className="input-group-append">
+										<button className="btn btn-secondary" type="button">
+											<i className="fa fa-search"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</header>
 		</>
 	);
