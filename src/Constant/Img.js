@@ -16,6 +16,9 @@ import tick from "../Assets/Images/tick.png";
 import video from "../Assets/Images/video.png";
 import recent5 from "../Assets/Images/recent5.png";
 import recent4 from "../Assets/Images/recent4.png";
+import recent7 from "../Assets/Images/recent5.png";
+import recent8 from "../Assets/Images/recent4.png";
+import recent9 from "../Assets/Images/recent4.png";
 import location from "../Assets/Images/location.png";
 import mail from "../Assets/Images/mail.png";
 import phone from "../Assets/Images/phone.png";
@@ -30,9 +33,9 @@ import quote1 from "../Assets/Images/quote1.png";
 import quote2 from "../Assets/Images/quote2.png";
 import blog from "../Assets/Images/blog.svg";
 import profile from "../Assets/Images/profile.webp";
-import icon_loader from "../Assets/Images/icon_loader.png";
+// import icon_loader from "../Assets/Images/icon_loader.png";
 export {
 	iballlogo1,bannerball,events4,blog2,blog3,Enquire,shop2,recent1,recent6,recent2,recent3,test2,
 	tes1,tick,video,recent5,recent4,location,mail,phone,contact_img,events,ballevnt,shop1,we,admin,quote1,
-	quote2,blog,user1,profile,icon_loader
+	quote2,blog,user1,profile,recent7,recent8,recent9
 };

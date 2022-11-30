@@ -1,0 +1,17 @@
+.sample_text_sec .heading-wrapper {
+	margin-bottom: 30px;
+}
+.sample_text_sec .bullets-wrapper {
+	margin: 33px 0px;
+}
+.sample_text_sec {
+	padding: 60px 0px;
+}
+.work-content-wrapper .bullets-wrapper img.big-img {
+	height: 300px;
+}
+.sample_text_sec .img-wrapper img {
+	width: 200px;
+	display: block;
+	margin: 34px 0px;
+}
