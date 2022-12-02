@@ -33,9 +33,29 @@ import quote1 from "../Assets/Images/quote1.png";
 import quote2 from "../Assets/Images/quote2.png";
 import blog from "../Assets/Images/blog.svg";
 import profile from "../Assets/Images/profile.webp";
+import blog1 from "../Assets/Images/blog1.png";
+import AssessmentAndDevelopment from "../Assets/Images/AssessmentAndDevelopment.jpg";
+import coa from "../Assets/Images/coa.jpg";
+import skill from "../Assets/Images/skill.jpg";
+import bp from "../Assets/Images/bp.jpg";
+import league from "../Assets/Images/league.jpg";
+import review from "../Assets/Images/review-img.webp";
+import review2 from "../Assets/Images/review-img2.webp";
+import review3 from "../Assets/Images/review-img3.webp";
+import profileimg from "../Assets/Images/profile.webp";
+import william_lawmann from "../Assets/Images/william_lawmann.jpg";
+import jaden_gonzales from "../Assets/Images/jaden_gonzales.jpg";
+import coach3 from "../Assets/Images/coach3.jpg";
+import video1 from "../Assets/Images/video.png";
+import video2 from "../Assets/Images/video-btn.png";
+import res1 from "../Assets/Images/res1.png";
+import res2 from "../Assets/Images/res2.png";
+import res3 from "../Assets/Images/res3.png";
+import res4 from "../Assets/Images/res4.png";
+import business from "../Assets/Images/business.jpg";
 // import icon_loader from "../Assets/Images/icon_loader.png";
 export {
 	iballlogo1,bannerball,events4,blog2,blog3,Enquire,shop2,recent1,recent6,recent2,recent3,test2,
 	tes1,tick,video,recent5,recent4,location,mail,phone,contact_img,events,ballevnt,shop1,we,admin,quote1,
-	quote2,blog,user1,profile,recent7,recent8,recent9
+	quote2,blog,user1,profile,recent7,recent8,recent9,blog1,AssessmentAndDevelopment,coa,skill,bp,league,review,review2,review3,profileimg,william_lawmann,jaden_gonzales,coach3,video1,video2,res1,res2,res3,res4,business
 };

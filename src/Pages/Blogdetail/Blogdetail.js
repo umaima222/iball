@@ -12,40 +12,40 @@ const Blogdetail = () => {
   return (
 	<>
 	<Header />
-	<section class="page-header">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="content-wrapper text-center">
+	<section className="page-header">
+		<div className="container">
+			<div className="row">
+				<div className="col-lg-12">
+					<div className="content-wrapper text-center">
 						<h2>Blogs</h2>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="detailed">
-		<div class="blog-round-left">
+	<section className="detailed">
+		<div className="blog-round-left">
 			{/* <img src={round} alt="" /> */}
 		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 ">
-					<div class="blog-deatiled-img-wrapper pt-5">
+		<div className="container">
+			<div className="row">
+				<div className="col-sm-12 ">
+					<div className="blog-deatiled-img-wrapper pt-5">
 						<figure>
-							<img src={we} class="img-fluid detailed-img" alt="" />
+							<img src={we} className="img-fluid detailed-img" alt="" />
 						</figure>
 					</div>
-					<div class="blog-admin-and-social pt-4  ">
-						<div class="admin-wrapper">
-							<img src={admin} class="img-fluid" alt="" />
+					<div className="blog-admin-and-social pt-4  ">
+						<div className="admin-wrapper">
+							<img src={admin} className="img-fluid" alt="" />
 							<h5>By : Admin</h5>
 						</div>
-						<div class="calender-wrapper">
-							<i class="fa fa-calendar-o"></i>
+						<div className="calender-wrapper">
+							<i className="fa fa-calendar-o"></i>
 							<h5>20-Apr-2022</h5>
 						</div>
 					</div>
-					<div class="blog-description pt-5">
+					<div className="blog-description pt-5">
 						<p>
 							Koluptate velit cillum dolre fugiat nula pariatur. Excepteur
 							anim idet laborumed perspiciat und omnis iste natus goluptatem
@@ -65,15 +65,15 @@ const Blogdetail = () => {
 							</li>
 						</ul>
 					</div>
-					<div class="quotes-wrapper">
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="quotation-wrapper">
-									<div class="quote1 align-self-start">
+					<div className="quotes-wrapper">
+						<div className="row">
+							<div className="col-lg-12">
+								<div className="quotation-wrapper">
+									<div className="quote1 align-self-start">
 										<img src={quote1} alt="" />
-										<span class="d-md-none">"</span>
+										<span className="d-md-none">"</span>
 									</div>
-									<div class="quotation px-3">
+									<div className="quotation px-3">
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipiscing
 											elit, sed do eiusmod tempor incididunt ut labore et
@@ -97,16 +97,16 @@ const Blogdetail = () => {
 											officia deserunt mollit anim id est laborum.
 										</p>
 									</div>
-									<div class="quote2 align-self-end">
+									<div className="quote2 align-self-end">
 										<img src={quote2} alt="" />
-										<span class="d-md-none">"</span>
+										<span className="d-md-none">"</span>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="more-des-wrapper">
-						<p class="mb-0">
+					<div className="more-des-wrapper">
+						<p className="mb-0">
 							Koluptate velit cillum dolre fugiat nula pariatur. Excepteur
 							anim idet laborumed perspiciat und omnis iste natus goluptatem
 							acusantium dolore mque lorem ipsum dolor sit amet cons ectetur
@@ -118,9 +118,9 @@ const Blogdetail = () => {
 							ipsum dolor sit amet cons ectetur adipisicing elit sed
 							incididunt. Lorem ip dolor sit amet consectetur
 						</p>
-						<div class="row pb-5">
-							<div class="col-lg-9 pr-lg-0">
-								<div class="content-wrapper">
+						<div className="row pb-5">
+							<div className="col-lg-9 pr-lg-0">
+								<div className="content-wrapper">
 									<p>
 										Koluptate velit cillum dolre fugiat nula pariatur.
 										Excepteur anim idet laborumed perspiciat und omnis iste
@@ -145,17 +145,17 @@ const Blogdetail = () => {
 									</p>
 								</div>
 							</div>
-							<div class="col-lg-3 px-lg-0">
-								<div class="img-wrappper">
+							<div className="col-lg-3 px-lg-0">
+								<div className="img-wrappper">
 									<figure>
-										<img src={blog} class="img-fluid" alt="" />
+										<img src={blog} className="img-fluid" alt="" />
 									</figure>
 								</div>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="content-wrapper">
+						<div className="row">
+							<div className="col-lg-12">
+								<div className="content-wrapper">
 									<p>
 										There are many variations of passages of Lorem Ipsum
 									</p>
@@ -183,9 +183,9 @@ const Blogdetail = () => {
 							</div>
 						</div>
 					</div>
-					<div class="blog-replies-wrapper">
-						<div class="row">
-							<div class="col-sm-12 pb-5">
+					<div className="blog-replies-wrapper">
+						<div className="row">
+							<div className="col-sm-12 pb-5">
 								<h3>
 									3 Replies to “
 									<span>
@@ -194,18 +194,18 @@ const Blogdetail = () => {
 									”
 								</h3>
 							</div>
-							<div class="col-lg-1">
-								<div class="user-img-wrapper">
+							<div className="col-lg-1">
+								<div className="user-img-wrapper">
 									<figure>
-										<img src={user1} class="img-fluid" alt="" />
+										<img src={user1} className="img-fluid" alt="" />
 									</figure>
 								</div>
 							</div>
-							<div class="col-lg-11">
-								<div class="user-content-wrapper">
-									<h5 class="replied-user-name">John Doe</h5>
-									<h6 class="comment-date">28Feb2021</h6>
-									<p class="comment-content">
+							<div className="col-lg-11">
+								<div className="user-content-wrapper">
+									<h5 className="replied-user-name">John Doe</h5>
+									<h6 className="comment-date">28Feb2021</h6>
+									<p className="comment-content">
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 										sed do eiusmod tempor incididunt ut labore et dolore
 										magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -213,23 +213,23 @@ const Blogdetail = () => {
 										amet, consectetur adipiscing elit, sed do eiusmod tempor
 										incididunt ut labore et
 									</p>
-									<a href="#" class="comment-reply">
+									<a href="#" className="comment-reply">
 										Reply :
 									</a>
 								</div>
 							</div>
-							<div class="col-lg-1">
-								<div class="user-img-wrapper">
+							<div className="col-lg-1">
+								<div className="user-img-wrapper">
 									<figure>
-										<img src={user1} class="img-fluid" alt="" />
+										<img src={user1} className="img-fluid" alt="" />
 									</figure>
 								</div>
 							</div>
-							<div class="col-lg-11">
-								<div class="user-content-wrapper">
-									<h5 class="replied-user-name">John Doe</h5>
-									<h6 class="comment-date">28Feb2021</h6>
-									<p class="comment-content">
+							<div className="col-lg-11">
+								<div className="user-content-wrapper">
+									<h5 className="replied-user-name">John Doe</h5>
+									<h6 className="comment-date">28Feb2021</h6>
+									<p className="comment-content">
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 										sed do eiusmod tempor incididunt ut labore et dolore
 										magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -237,23 +237,23 @@ const Blogdetail = () => {
 										amet, consectetur adipiscing elit, sed do eiusmod tempor
 										incididunt ut labore et
 									</p>
-									<a href="#" class="comment-reply">
+									<a href="#" className="comment-reply">
 										Reply :
 									</a>
 								</div>
 							</div>
-							<div class="col-lg-1">
-								<div class="user-img-wrapper">
+							<div className="col-lg-1">
+								<div className="user-img-wrapper">
 									<figure>
-										<img src={user1} class="img-fluid" alt="" />
+										<img src={user1} className="img-fluid" alt="" />
 									</figure>
 								</div>
 							</div>
-							<div class="col-lg-11">
-								<div class="user-content-wrapper">
-									<h5 class="replied-user-name">John Doe</h5>
-									<h6 class="comment-date">28Feb2021</h6>
-									<p class="comment-content">
+							<div className="col-lg-11">
+								<div className="user-content-wrapper">
+									<h5 className="replied-user-name">John Doe</h5>
+									<h6 className="comment-date">28Feb2021</h6>
+									<p className="comment-content">
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 										sed do eiusmod tempor incididunt ut labore et dolore
 										magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -261,7 +261,7 @@ const Blogdetail = () => {
 										amet, consectetur adipiscing elit, sed do eiusmod tempor
 										incididunt ut labore et
 									</p>
-									<a href="#" class="comment-reply">
+									<a href="#" className="comment-reply">
 										Reply :
 									</a>
 								</div>
@@ -271,7 +271,7 @@ const Blogdetail = () => {
 				</div>
 			</div>
 		</div>
-		<div class="blog-round">
+		<div className="blog-round">
 			{/* <img src={round} alt="" /> */}
 		</div>
 	</section>

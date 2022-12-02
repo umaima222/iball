@@ -8,47 +8,47 @@ const Login = () => {
   return (
     <>
     <Header/>
-    <section class="checkout">
-    <div class="container">
+    <section className="checkout">
+    <div className="container">
         <form action="thank-you.php">
-            <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-6 kip">
-                    <div class="first-top-bar">
+            <div className="row">
+                <div className="col-lg-3"></div>
+                <div className="col-lg-6 kip">
+                    <div className="first-top-bar">
                         <h3>Sign In</h3>
                         <p>Don’t have an account? <a href="Sign-up.php">Sign Up</a> </p>
                     </div>
-                    <div class="add-new-address">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
+                    <div className="add-new-address">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div className="form-group">
                                     <label for="Email">Email</label>
-                                    <input type="email" id="Email" class="form-control"/>
+                                    <input type="email" id="Email" className="form-control"/>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
+                            <div className="col-md-12">
+                                <div className="form-group">
                                     <label for="Password">Password</label>
-                                    <input type="password" id="Password" class="form-control"/>
+                                    <input type="password" id="Password" className="form-control"/>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <div class="form-group text-right">
+                            <div className="col-md-12">
+                                <div className="form-group text-right">
                                     <a href="forgot-password.php">Forgotten Password?</a>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-                                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            <div className="col-md-12">
+                                <div className="row align-items-center">
+                                    <div className="col-lg-6">
+                                        <div className="form-check">
+                                            <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                                            <label className="form-check-label" for="exampleCheck1">Remember Me</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 text-right">
-                                        <div class="add-new-method">
+                                    <div className="col-lg-6 text-right">
+                                        <div className="add-new-method">
 
-                                            <button type="button" onclick="location.href='profile.php'" class="btn">SIGN IN</button>
+                                            <button type="button" onclick="location.href='profile.php'" className="btn">SIGN IN</button>
                                         </div>
                                     </div>
                                 </div>
@@ -56,15 +56,15 @@ const Login = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="payment-details">
+                    <div className="payment-details">
 
-                        <div class="saved-payment-method">
+                        <div className="saved-payment-method">
 {/* 
                             <!-- Saved payments Method --> */}
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3"></div>
+                <div className="col-lg-3"></div>
             </div>
         </form>
     </div>

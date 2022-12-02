@@ -11,28 +11,28 @@ const Editprofile = () => {
   return (
     <>
     <Header />
-    <section class="checkout profile-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="img-and-username-wrapper">
-                        <div class="profile-img">
+    <section className="checkout profile-sec">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-4">
+                    <div className="img-and-username-wrapper">
+                        <div className="profile-img">
                             <figure>
-                                <img src={profile} class="img-fluid" alt="" />
-                                <a href="#" class="chnage">
+                                <img src={profile} className="img-fluid" alt="" />
+                                <a href="#" className="chnage">
                                     Change image
                                 </a>
                             </figure>
                         </div>
-                        <div class="username mt-4">
-                            <h3 class="username">John Doe</h3>
+                        <div className="username mt-4">
+                            <h3 className="username">John Doe</h3>
                         </div>
                     </div>
-                    <div class="for-proflie">
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item">
+                    <div className="for-proflie">
+                        <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li className="nav-item">
                                 <a
-                                    class="nav-link active"
+                                    className="nav-link active"
                                     id="pills-home-tab"
                                     data-toggle="pill"
                                     href="#pills-home"
@@ -43,9 +43,9 @@ const Editprofile = () => {
                                     Account
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <a
-                                    class="nav-link"
+                                    className="nav-link"
                                     id="pills-profile-tab"
                                     data-toggle="pill"
                                     href="#pills-profile"
@@ -56,9 +56,9 @@ const Editprofile = () => {
                                     My Order
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <a
-                                    class="nav-link"
+                                    className="nav-link"
                                     id="pills-contact-tab"
                                     data-toggle="pill"
                                     href="#pills-contact"
@@ -71,79 +71,79 @@ const Editprofile = () => {
                             </li>
                         </ul>
 
-                        <div class="sign-out">
-                            <button class="btn" onclick="location.href='index.php'">
+                        <div className="sign-out">
+                            <button className="btn" onclick="location.href='index.php'">
                                 SIGN OUT
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <h3 class="basic_head">Edit Information</h3>
-                    <div class="information">
-                        <div class="row profile-h">
-                            <div class="col-md-2">
-                                <div class="avatar-preview active_img align-self-center">
+                <div className="col-md-8">
+                    <h3 className="basic_head">Edit Information</h3>
+                    <div className="information">
+                        <div className="row profile-h">
+                            <div className="col-md-2">
+                                <div className="avatar-preview active_img align-self-center">
                                     <figure>
-                                        <img src={profile} class="img-fluid" alt="" />
+                                        <img src={profile} className="img-fluid" alt="" />
                                     </figure>
                                 </div>
                             </div>
-                            <div class="col-md-5  align-self-center">
-                                <div class="jpg-png">
+                            <div className="col-md-5  align-self-center">
+                                <div className="jpg-png">
                                     <p>Jpeg or Png maximum size (5mb)</p>
                                 </div>
-                                <div class="avatar-edit">
-                                    <label for="imageUpload" class="btn">
+                                <div className="avatar-edit">
+                                    <label for="imageUpload" className="btn">
                                         Upload Photo
                                     </label>
                                     <input
                                         type="file"
                                         id="imageUpload"
-                                        class="custom-file-input"
+                                        className="custom-file-input"
                                         accept=".png, .jpg, .jpeg"
                                     />
                                 </div>
                             </div>
-                            <div class="col-md-5 p-0">
-                                <div class="loader-pro">
+                            <div className="col-md-5 p-0">
+                                <div className="loader-pro">
                                     <p>Processing</p>
                                     {/* <i><img src={icon_loader} alt=""/></i> */}
                                 </div>
                             </div>
                         </div>
-                        <div class="form-start add-new-address">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
+                        <div className="form-start add-new-address">
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <div className="form-group">
                                         <label for="oldPassword">First Name</label>
                                         <input
                                             type="text"
-                                            class="form-control"
+                                            className="form-control"
                                             id="inputName"
                                             name="first_name"
                                             required="required"
                                         />
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
+                                <div className="col-md-6">
+                                    <div className="form-group">
                                         <label for="oldPassword">Last Name</label>
                                         <input
                                             type="text"
-                                            class="form-control"
+                                            className="form-control"
                                             name="last_name"
                                             id="inputLname"
                                             required="required"
                                         />
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
+                                <div className="col-md-6">
+                                    <div className="form-group">
                                         <label for="oldPassword">Phone</label>
                                         <input
                                             type="tel"
-                                            class="form-control"
+                                            className="form-control"
                                             id="inputPhone"
                                             name="inputPhone"
                                             required="Phone"
@@ -151,11 +151,11 @@ const Editprofile = () => {
                                     </div>
                                 </div>
 
-                                <div class="col-md-12">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-12 text-right">
-                                            <div class="add-new-method">
-                                                <button type="button" class="btn">
+                                <div className="col-md-12">
+                                    <div className="row align-items-center">
+                                        <div className="col-lg-12 text-right">
+                                            <div className="add-new-method">
+                                                <button type="button" className="btn">
                                                     CONFIRM
                                                 </button>
                                             </div>

@@ -1,0 +1,28 @@
+section.theteam_sec {
+	padding: 4rem 0;
+}
+.theteam_img {
+	display: flex;
+	justify-content: center;
+}
+
+.theteam_desc h3 {
+	text-align: center;
+}
+.theteam_desc {
+	text-align: center;
+	margin-top: 15px;
+}
+/* .theteam_sec .theteam_img img {
+	height: 467px;
+	width: 100%;
+	object-fit: cover;
+	object-position: top;
+} */
+
+.theteam_sec .theteam_img .img-fluid {
+	height: 466px;
+	width: 100%;
+	object-fit: cover;
+	object-position: top;
+}
