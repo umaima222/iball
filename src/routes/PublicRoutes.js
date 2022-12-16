@@ -28,11 +28,11 @@ import Profile from "../Pages/Profile/Profile";
 import Signup from "../Pages/Signup/Signup";
 import Terms from "../Pages/Terms/Terms";
 import Login from "../Pages/Login/Login";
-import Cart from "../PagesCart/Cart";
+import Cart from "../Pages/Cart/Cart"
 import Thankyou from "../Pages/Thankyou/Thankyou";
 import Theteam from "../Pages/Theteam/Theteam";
-import Video from "../Pages/video/video";
-import Whatwedo from "../Pages/whatwedo/whatwedo";
+import Video from "../Pages/Video/Video";
+import Whatwedo from "../Pages/Whatwedo/Whatwedo";
 const PublicRoutes = () => {
 	return (
 		<>

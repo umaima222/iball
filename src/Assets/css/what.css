@@ -1,0 +1,66 @@
+.what-we-do {
+    padding: 60px 0px;
+  }
+  .what-we-do h5 {
+    color: #ff7600;
+  }
+  .what-we-do h2 {
+    color: #000;
+  }
+  .what-we-do .content-wrapper p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #847e76;
+  }
+  .what-we-do .content-wrapper {
+    margin-top: 30px;
+  }
+  /* company css starts here */
+  .campany {
+    padding: 60px 0px;
+  }
+  .campany h5 {
+    color: #ff7600;
+  }
+  .campany h2 {
+    color: #000;
+  }
+  .campany ul {
+    padding: 0px;
+    list-style: none;
+    column-count: 2;
+  }
+  .campany ul li {
+    font-family: "Poppins";
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2.5;
+  }
+  .campany p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #847e76;
+  }
+  /* company css ends here */
+  /* member starts here */
+  .members {
+    padding-bottom: 60px;
+  }
+  .members h5 {
+    color: #ff7600;
+  }
+  .members h2 {
+    color: #000;
+  }
+  .members .card-wrapper img {
+    box-shadow: 0px 0px 5px 2px #f3f3f3;
+  }
+  .members .card-wrapper h3 {
+    color: #000000;
+  }
+  .members .card-wrapper p {
+    color: #49686e;
+  }
+  /* member starts ends */
+  

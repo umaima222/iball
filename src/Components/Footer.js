@@ -55,7 +55,7 @@ const Footer = () => {
 					<div className="row">
 						<div className="col-lg-3">
 							<div className="footer-widget-1">
-								<a href="index.php">
+								<a href="/Home">
 									<img
 										src={iballlogo1}
 										className="img-fluid i-logo-header"
@@ -89,10 +89,10 @@ const Footer = () => {
 											<Link to="/About">About us</Link>
 										</li>
 										<li>
-											<a href="what-we-do.php">What we do</a>
+											<a href="/Whatwedo">What we do</a>
 										</li>
 										<li>
-											<a href="events.php">Events</a>
+											<a href="/Event">Events</a>
 										</li>
 										<li>
 											<a href="blogs.php">Blogs</a>

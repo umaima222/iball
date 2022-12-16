@@ -50,12 +50,19 @@ import video1 from "../Assets/Images/video.png";
 import video2 from "../Assets/Images/video-btn.png";
 import res1 from "../Assets/Images/res1.png";
 import res2 from "../Assets/Images/res2.png";
-import res3 from "../Assets/Images/res3.png";
+import res3 from "../Assets/Images/res3.jpg";
 import res4 from "../Assets/Images/res4.png";
 import business from "../Assets/Images/business.jpg";
+import company from "../Assets/Images/company.png";
+import member from "../Assets/Images/member.png"
+import Patience from "../Assets/Images/Patience.jpeg";
+import commitmentAndPatience from "../Assets/Images/commitmentAndPatience.jpg";
+import Teamwork  from "../Assets/Images/Teamwork.jpg";
+
 // import icon_loader from "../Assets/Images/icon_loader.png";
 export {
 	iballlogo1,bannerball,events4,blog2,blog3,Enquire,shop2,recent1,recent6,recent2,recent3,test2,
 	tes1,tick,video,recent5,recent4,location,mail,phone,contact_img,events,ballevnt,shop1,we,admin,quote1,
-	quote2,blog,user1,profile,recent7,recent8,recent9,blog1,AssessmentAndDevelopment,coa,skill,bp,league,review,review2,review3,profileimg,william_lawmann,jaden_gonzales,coach3,video1,video2,res1,res2,res3,res4,business
+	quote2,blog,user1,profile,recent7,recent8,recent9,blog1,AssessmentAndDevelopment,coa,skill,bp,league,review,review2,review3,profileimg,william_lawmann,jaden_gonzales,coach3,video1,video2,res1,res2,res3,res4,business,company,member,
+	Patience,commitmentAndPatience, Teamwork
 };

@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
-import "../../signup.css"
-import "../../checkout.css"
+import "../../Assets/css/signup.css"
+import "../../Assets/css/checkout.css"
 
 const Login = () => {
   return (

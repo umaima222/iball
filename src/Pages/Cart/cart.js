@@ -3,7 +3,7 @@ import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
 import "../../Assets/css/cart.css"
 import { shop1 } from '../../Constant/Img'
-const cart = () => {
+const Cart = () => {
   return (
    <>
    <Header/>
@@ -85,4 +85,4 @@ const cart = () => {
   )
 }
 
-export default cart
+export default Cart

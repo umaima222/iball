@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
+import "../../Assets/css/theteam.css"
 import { coach3, jaden_gonzales, william_lawmann } from '../../Constant/Img'
 const Theteam = () => {
   return (
